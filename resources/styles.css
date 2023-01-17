@@ -1,0 +1,99 @@
+.background {
+  viewport-fill: black;
+}
+
+#battery-container {
+  x: 100;
+  y: 0;
+  height: 100%;
+  width: 15%;
+}
+
+#battery-rect {
+  height: 100%;
+  width: 100%;
+  fill: lightsalmon;
+}
+
+#battery-percentage {
+  x: 25;
+  y: 28;
+  height: 7;
+  font-family: Seville-Bold-Condensed;
+  text-length: 4;
+  font-size: 20;
+  fill: #03a6ac; /*#c2fe7e */
+  text-anchor: middle;
+}
+
+.battery-block {
+  x: 2;
+  y: 34;
+  width: 45;
+  height: 3;
+  fill: #01949a;
+  opacity: 0.8;
+}
+
+#step-container {
+  x: 50;
+  y: 0;
+  height: 100%;
+  width: 15%;
+}
+
+#step-rect {
+  y: 34;
+  height: 100%;
+  width: 100%;
+  fill: #e57f84;
+  opacity: 0.2;
+}
+
+#step-bar {
+  x: 2;
+  y: 336;
+  width: 92%;
+  height: 50;
+  fill: #e57f84; /*#e67553,  538ee6, 75e6da, 6096BA, 06728f*/
+  opacity: 0.5;
+}
+
+#goal-text {
+  x: 26;
+  y: 28;
+  height: 7;
+  font-family: Seville-Bold-Condensed;
+  text-length: 4;
+  font-size: 20;
+  fill:#be4852; /* f4eae6, da777f, ff8691 */
+  text-anchor: middle;
+}
+
+#time-text {
+  x: 270;
+  y: 170;
+  font-size: 52;
+  font-family: Colfax-Regular;
+  text-length: 5;
+  fill:#f4eae6;
+  text-anchor: end;
+}
+
+#ampm-text {
+  x: 270;
+  y: 170;
+  font-size: 32;
+  font-family: Colfax-Regular;
+  text-length: 2;
+  fill: white; /* 2f5061, 3f7996 */
+}
+
+#date-text {
+  x: 238;
+  y: 197;
+  font-size: 25;
+  text-length: 10;
+  fill: #01949a; /*#e57f84*/
+  text-anchor: middle;
+}

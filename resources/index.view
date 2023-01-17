@@ -1,0 +1,16 @@
+<svg class="background">
+  <section id="step-container">
+    <text id="goal-text"/>
+    <rect id="step-rect"/>
+    <rect id="step-bar"/>
+  </section>
+
+  <section id="battery-container">
+    <text id="battery-percentage"/>
+    <use href="#battery-blocks"/>
+  </section>
+
+  <text id="time-text"/>
+  <text id="ampm-text"/>
+  <text id="date-text"/>
+</svg>
